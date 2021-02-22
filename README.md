@@ -4,7 +4,7 @@ Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 
 ## Alunos integrantes da equipe
 
-Davi Brandão Saldanha
+Davi Brandão Saldanha e 
 Gabriel Santana Barroso
 
 ## Professores responsáveis
