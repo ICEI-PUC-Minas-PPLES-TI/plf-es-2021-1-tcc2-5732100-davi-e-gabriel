@@ -1,0 +1,130 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% How to use writeLaTeX: 
+%
+% You edit the source code here on the left, and the preview on the
+% right shows you the result within a few seconds.
+%
+% Bookmark this page and share the URL with your co-authors. They can
+% edit at the same time!
+%
+% You can upload figures, bibliographies, custom classes and
+% styles using the files menu.
+%
+% 1) Elaborar questionários fechados -- FEITO
+%
+% 2) Elaborar entrevista - Feito -- FEITO
+%
+% 3) Elaborar questionário aberto -- FEITO
+%
+% 4) Escrever e-mail para professores -- FEITO mas não enviado
+%
+% 5) Criar apêndice e incluir itens 1, 2 e 3 dessa lista -- FEITO
+%
+% 6) Elaborar roteiro do vídeo - Esqueleto feito
+%
+% 7) Revisar o documento (correção de feedbacks + itens desta lista)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt]{article}
+\usepackage{float} 
+%\newcolumntype{C}{>{\centering\arraybackslash}X} % <-- modified
+\usepackage[utf8]{inputenc}  
+\usepackage[inline]{enumitem}
+
+\usepackage{sbc-template}
+\usepackage{tabularx}
+\usepackage{graphicx,url}
+%\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{microtype} 			% para melhorias de justificação
+
+%\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+%\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+
+\usepackage[brazil]{babel}   
+\usepackage{tcolorbox}
+%\usepackage[skip=-5pt]{caption}
+%\captionsetup{font={stretch=0.6,small}}
+\usepackage[inline]{enumitem}
+
+\sloppy
+
+\title{Benefícios da Aplicação da Etapa de Medição do \textit{Lean Learning}: um estudo de
+caso no ensino da Engenharia de \textit{Software}}
+
+\author{Davi B. Saldanha\inst{1}, Gabriel S. Barroso\inst{1}}
+
+
+\address{Instituto de Ciências Exatas e Informática\\ Pontifícia Universidade Católica de Minas Gerais
+  (PUC - MG)\\
+  Belo Horizonte -- MG -- Brasil
+  \email{davi.brandao@sga.pucminas.br, gsbarroso@sga.pucminas.br}
+}
+
+\begin{document} 
+
+\maketitle
+
+\begin{abstract}
+  Lean Learning is a methodology that aims the constant improvement of learning processes, in order to increase quality and productivity of teachers and students. As its name indicates, it is an adaptation of the Japanese management model named Lean, which is applicable to many industry sectors. The study of the application of Lean principles in education is still recent, but promising on promoting better adequacy between public and content. This article craves to analyze one step that is part of the Lean Learning cycle, named Measure, applied to the context of Software Engineering teaching, through a descriptive and exploratory study case, looking to understand the relation between this step and the learning improvement on this area of knowledge.
+  
+  \textbf{Keywords:} \emph{Lean, Lean Learning, Software Engineering, Teaching}
+\end{abstract}
+     
+\begin{resumo} 
+  Lean Learning é uma metodologia que visa a melhoria constante dos processos de aprendizagem, buscando aumentar qualidade e produtividade para professores e alunos. Como seu nome indica, ela se trata de uma adaptação do modelo japonês de gestão denominado Lean, aplicável a diversos setores de indústria. O estudo da aplicação dos princípios Lean na educação é recente, mas promissor no sentido de promover melhor adequação entre público e conteúdo. Este trabalho almeja analisar uma das etapas previstas no ciclo do Lean Learning, denominada Medir, aplicada ao contexto do ensino da Engenharia de Software. Para tal, é realizado um estudo de caso exploratório e descritivo, que busca compreender a relação desta etapa com a melhoria do aprendizado nesta área de conhecimento.
+  
+  \textbf{Palavras chave:} \emph{\textit{Lean}, \textit{Lean Learning}, Engenharia de \textit{Software}, Ensino}
+\end{resumo}
+
+\begin{tcolorbox}
+\footnotesize
+\textbf{Bacharelado em Engenharia de \emph{Software} - PUC Minas\\
+Trabalho de Conclusão de Curso (TCC)} \\
+
+\indent Orientador de conteúdo (TCC I): Laerte Xavier - laertexavier@gmail.com\\
+Orientador acadêmico (TCC I): Lesandro Ponciano - lesandrop@pucminas.br\\
+Orientadora do TCC II: Letícia Castro Peixoto - leticiacastropeixoto@pucminas.br\\ \\
+Belo Horizonte, 15 de novembro de 2020.
+\end{tcolorbox}
+
+%\tableofcontents
+
+\newpage
+
+\section{Introdução}
+
+\input{Textos/introducao}
+
+\section{Referencial Teórico}
+
+\input{Textos/referencial}
+
+\section{Trabalhos Relacionados}
+
+\input{Textos/trabalhos}
+
+\section{Metodologia}
+
+\input{Textos/metodologia}
+
+\section{Análise dos resultados}
+
+\input{Textos/resultados}
+
+\section{Conclusão}
+
+\input{Textos/conclusao}
+
+\section*{Apêndice}
+%\addcontentsline{toc}{section}{\protect Apêndice}%
+
+\input{Textos/apendice}
+
+%\addcontentsline{toc}{section}{Referências}
+
+\bibliographystyle{sbc}
+\bibliography{sbc-template}
+
+\end{document}
