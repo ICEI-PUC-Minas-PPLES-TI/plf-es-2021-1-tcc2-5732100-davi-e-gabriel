@@ -1,18 +1,14 @@
-# Nome do projeto
-
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+# Estudo de caso: como a aplicação da etapa de medição do Lean Learning pode melhorar o ensino da Engenharia de Software
+O objetivo geral deste trabalho é 
 
 ## Alunos integrantes da equipe
-
-Davi Brandão Saldanha e 
-Gabriel Santana Barroso
+* Davi Brandão Saldanha 
+* Gabriel Santana Barroso
 
 ## Professores responsáveis
+* José Laerte Pires Xavier Junior (TCCI)
+* Lesandro Ponciano dos Santos (TCCI)
+* Letícia Castro Peixoto (TCCII)
 
-* Nome do orientador de conteúdo (TCCI)
-* Nome do orientador de acadêmico (TCCI)
-* Nome do orientador de TCC II
-
-## Instruções de Replicação/Reprodução
-
-Apresentar instruções de como o trabalho pode ser replicado/reproduzido.
+## Link para visualização no Overleaf 
+* https://www.overleaf.com/read/yhvgczbtfprh
