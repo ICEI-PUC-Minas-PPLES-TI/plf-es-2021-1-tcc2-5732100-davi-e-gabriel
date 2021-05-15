@@ -10,42 +10,22 @@
 % You can upload figures, bibliographies, custom classes and
 % styles using the files menu.
 %
-% 1) Elaborar questionários fechados -- FEITO
-%
-% 2) Elaborar entrevista - Feito -- FEITO
-%
-% 3) Elaborar questionário aberto -- FEITO
-%
-% 4) Escrever e-mail para professores -- FEITO mas não enviado
-%
-% 5) Criar apêndice e incluir itens 1, 2 e 3 dessa lista -- FEITO
-%
-% 6) Elaborar roteiro do vídeo - Esqueleto feito
-%
-% 7) Revisar o documento (correção de feedbacks + itens desta lista)
-%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[12pt]{article}
 \usepackage{float} 
-%\newcolumntype{C}{>{\centering\arraybackslash}X} % <-- modified
 \usepackage[utf8]{inputenc}  
 \usepackage[inline]{enumitem}
 
 \usepackage{sbc-template}
 \usepackage{tabularx}
+\usepackage{float}
 \usepackage{graphicx,url}
-%\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
-\usepackage{graphicx}			% Inclusão de gráficos
-\usepackage{microtype} 			% para melhorias de justificação
-
-%\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
-%\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+\usepackage{graphicx}
+\usepackage{microtype}
 
 \usepackage[brazil]{babel}   
 \usepackage{tcolorbox}
-%\usepackage[skip=-5pt]{caption}
-%\captionsetup{font={stretch=0.6,small}}
 \usepackage[inline]{enumitem}
 
 \sloppy
@@ -67,15 +47,15 @@ caso no ensino da Engenharia de \textit{Software}}
 \maketitle
 
 \begin{abstract}
-  Lean Learning is a methodology that aims the constant improvement of learning processes, in order to increase quality and productivity of teachers and students. As its name indicates, it is an adaptation of the Japanese management model named Lean, which is applicable to many industry sectors. The study of the application of Lean principles in education is still recent, but promising on promoting better adequacy between public and content. This article craves to analyze one step that is part of the Lean Learning cycle, named Measure, applied to the context of Software Engineering teaching, through a descriptive and exploratory study case, looking to understand the relation between this step and the learning improvement on this area of knowledge.
+  Lean Learning is a methodology that aims the constant improvement of learning processes, in order to increase quality and productivity of teachers and students. As its name indicates, it is an adaptation of the Japanese management model named Lean Management, which is applicable to many industry sectors. The study of the application of Lean principles in education is still recent, but promising on promoting better adequacy between public and content. This article analyzed one step that is part of the Lean Learning cycle, named Measure, applied to the context of Software Engineering teaching. An exploratory study case was made, based on application of quizzes to students and teachers, to collect their opinion about the application of practical exercises. The results were positive and showed that the use of the methodology can be beneficial to the Software Engineering course.
   
-  \textbf{Keywords:} \emph{Lean, Lean Learning, Software Engineering, Teaching}
+  \textbf{Keywords:} \emph{Lean, Lean Learning, Software Engineering}
 \end{abstract}
      
 \begin{resumo} 
-  Lean Learning é uma metodologia que visa a melhoria constante dos processos de aprendizagem, buscando aumentar qualidade e produtividade para professores e alunos. Como seu nome indica, ela se trata de uma adaptação do modelo japonês de gestão denominado Lean, aplicável a diversos setores de indústria. O estudo da aplicação dos princípios Lean na educação é recente, mas promissor no sentido de promover melhor adequação entre público e conteúdo. Este trabalho almeja analisar uma das etapas previstas no ciclo do Lean Learning, denominada Medir, aplicada ao contexto do ensino da Engenharia de Software. Para tal, é realizado um estudo de caso exploratório e descritivo, que busca compreender a relação desta etapa com a melhoria do aprendizado nesta área de conhecimento.
-  
-  \textbf{Palavras chave:} \emph{\textit{Lean}, \textit{Lean Learning}, Engenharia de \textit{Software}, Ensino}
+  Lean Learning é uma metodologia que visa a melhoria constante dos processos de aprendizagem, buscando aumentar qualidade e produtividade para professores e alunos. Como seu nome indica, ela se trata de uma adaptação do modelo japonês de gestão denominado Lean Management, aplicável a diversos setores de indústria. O estudo da aplicação dos princípios Lean na educação é recente, mas promissor no sentido de promover melhor adequação entre público e conteúdo. Este trabalho analisou uma das etapas previstas no ciclo do Lean Learning, denominada Medir, aplicada ao contexto do ensino da Engenharia de Software. Para tal, fez-se um estudo de caso exploratório, por meio da aplicação de questionários a alunos e professores, observando sua opinião sobre a aplicação de práticas. Os resultados foram positivos e indicaram que o uso da metodologia pode ser benéfico para o curso de Engenharia de Software. 
+    
+  \textbf{Palavras chave:} \emph{\textit{Lean}, \textit{Lean Learning}, Engenharia de \textit{Software}}
 \end{resumo}
 
 \begin{tcolorbox}
@@ -83,13 +63,11 @@ caso no ensino da Engenharia de \textit{Software}}
 \textbf{Bacharelado em Engenharia de \emph{Software} - PUC Minas\\
 Trabalho de Conclusão de Curso (TCC)} \\
 
-\indent Orientador de conteúdo (TCC I): Laerte Xavier - laertexavier@gmail.com\\
-Orientador acadêmico (TCC I): Lesandro Ponciano - lesandrop@pucminas.br\\
+\indent Orientador de conteúdo (TCC I): José Laerte Pires Xavier Junior - laertexavier@gmail.com\\
+Orientador acadêmico (TCC I): Lesandro Ponciano dos Santos - lesandrop@pucminas.br\\
 Orientadora do TCC II: Letícia Castro Peixoto - leticiacastropeixoto@pucminas.br\\ \\
-Belo Horizonte, 15 de novembro de 2020.
+Belo Horizonte, 14 de maio de 2021.
 \end{tcolorbox}
-
-%\tableofcontents
 
 \newpage
 
@@ -113,16 +91,13 @@ Belo Horizonte, 15 de novembro de 2020.
 
 \input{Textos/resultados}
 
-\section{Conclusão}
+\section{Conclusão e considerações finais}
 
 \input{Textos/conclusao}
 
 \section*{Apêndice}
-%\addcontentsline{toc}{section}{\protect Apêndice}%
 
 \input{Textos/apendice}
-
-%\addcontentsline{toc}{section}{Referências}
 
 \bibliographystyle{sbc}
 \bibliography{sbc-template}
